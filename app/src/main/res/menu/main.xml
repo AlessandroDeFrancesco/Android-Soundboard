@@ -1,0 +1,12 @@
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+      xmlns:app="http://schemas.android.com/apk/res-auto" >
+    <item android:id="@+id/search"
+          android:title="@string/search"
+          android:icon="@drawable/search_icon"
+          app:showAsAction="collapseActionView|always"
+          app:actionViewClass="android.support.v7.widget.SearchView" />
+    <item android:id="@+id/never_interrupt"
+          android:title="@string/menu_dont_stop_audio"
+          app:actionLayout="@layout/menu_switch"
+          android:checkable="true"/>
+</menu>

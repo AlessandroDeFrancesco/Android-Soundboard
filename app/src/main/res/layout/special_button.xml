@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Button
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_height="wrap_content"
+    android:layout_width="100dp"
+    android:minWidth="50dp"
+    android:text="@string/play_all"
+    android:textColor="@color/white"
+    android:layout_margin="5dp"
+    android:padding="5dp"
+    android:elevation="5dp"
+    android:background="@drawable/rounded_background"
+    android:backgroundTint="@color/colorPrimary">
+</Button>

@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="app_name">Soundboard</string>
+    <string name="action_settings">Settings</string>
+    <string name="menu_dont_stop_audio">Never stop sounds</string>
+    <string name="search">Search</string>
+    <string name="test">Test</string>
+    <string name="play_all">Play All</string>
+    <string name="remove_all">Remove All</string>
+    <string name="share_all">Share All</string>
+</resources>

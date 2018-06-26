@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:orientation="vertical"
+    android:background="@color/background">
+    <LinearLayout
+          android:orientation="horizontal"
+          android:layout_width="match_parent"
+          android:layout_height="wrap_content"
+          android:layout_gravity="center"
+          android:gravity="center"
+          android:padding="5dp"
+          android:background="@color/background"
+          android:id="@+id/layout_fragment">
+    </LinearLayout>
+    <GridView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:numColumns="1"
+        android:background="@color/background"
+        android:id="@+id/list_view_fragment"
+        android:divider="@color/transparent"
+        android:focusable="false"
+        android:focusableInTouchMode="false"
+        android:clickable="false"
+        android:longClickable="false"
+        android:listSelector="@color/transparent"
+        tools:listitem="@layout/sound_button"
+        />
+</LinearLayout>
